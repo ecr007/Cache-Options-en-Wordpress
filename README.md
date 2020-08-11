@@ -16,3 +16,8 @@
 <p>Como su nombre lo indica recupera la información de una opción.</p>
 <div class="highlight highlight-text-html-php"><pre><span class="pl-en">update_option</span>(<span class="pl-s1"><span class="pl-c1">$</span>option_name</span>, <span class="pl-s1"><span class="pl-c1">$</span>newvalue</span>);</pre></div>
 <p>Esta función se utiliza para actualizar oh crear una opción, wordpress la recomienda usar por encima de add_option.</p>
+
+<b>Borrar Opción</b>
+```
+delete_option( string $option )
+```
